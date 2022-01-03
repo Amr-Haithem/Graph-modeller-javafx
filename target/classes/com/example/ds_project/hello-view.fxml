@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane minWidth="-Infinity" prefHeight="278.0" prefWidth="529.0" style="-fx-background-color: lightgrey;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ds_project.HelloController">
+   <children>
+      <Text layoutX="256.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VS" />
+      <TextField fx:id="arraySizeTextfield" layoutX="150.0" layoutY="114.0" prefHeight="25.0" prefWidth="75.0" />
+      <Text layoutX="163.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="array size" />
+      <Button fx:id="generateButton" layoutX="214.0" layoutY="171.0" mnemonicParsing="false" onAction="#extractDataOfSortingAlgorithm" prefHeight="31.0" prefWidth="101.0" style="-fx-background-color: white;" text="generate" />
+      <ComboBox fx:id="rightList" layoutX="75.0" layoutY="34.0" prefWidth="150.0" promptText="choose algorithm" style="-fx-background-color: white;" />
+      <ComboBox fx:id="leftList" layoutX="304.0" layoutY="34.0" prefWidth="150.0" promptText="choose algorithm" style="-fx-background-color: white;" />
+      <TextField fx:id="stepSize" layoutX="304.0" layoutY="111.0" prefHeight="25.0" prefWidth="75.0" />
+      <Text layoutX="317.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="step size" />
+   </children>
+</Pane>
